@@ -1,0 +1,23 @@
+Board():
+O(n) because every element in the blankboard is set to x and every element in arbitrary board is touched only once.
+
+flagCell():
+O(1) because there are no loops. Only one thing is done(if statement).
+
+isFlagged();
+O(1) because there are no loops. Only one thing is done(if statement).
+
+getHeight():
+O(1) because there are no loops. Only one thing is done(return statement).
+
+getWidth():
+O(1) because there are no loops. Only one thing is done(if statement).
+
+getValue():
+O(1) because there are no loops. Only one thing is done(if statement).
+
+revealCell():
+dependent upon the recursive call. the recursive call could be O(n) or more depending on recursion.
+
+unflagCell():
+O(1) because only run through once(if statement).
